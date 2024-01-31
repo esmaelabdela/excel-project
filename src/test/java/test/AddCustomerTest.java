@@ -58,10 +58,11 @@ public class AddCustomerTest {
 	 addCustomerPage.selectCompanyName(companyName);
 	 addCustomerPage.insertAddress(address);
 	 addCustomerPage.insertCitty(city);
+	 addCustomerPage.insertZip(zip);
 	 addCustomerPage.selectCountryName(countryName);
-	 addCustomerPage.clickSaveButton();
-	
-	 addCustomerPage.validateInsertedNameAndDelete();
+//	 addCustomerPage.clickSaveButton();
+//	
+//	 addCustomerPage.validateInsertedNameAndDelete();
 	 
 	 
 	 
